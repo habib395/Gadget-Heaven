@@ -1,41 +1,5 @@
 [
-    {
-      "product_id": "CPT1001",
-      "product_title": "Dell Inspiron 15 3000",
-      "product_image": "https://i.ibb.co.com/XpRcWV7/computer1.png",
-      "category": "Laptop",
-      "price": 450.00,
-      "description": "Affordable laptop for everyday tasks with Intel i3 processor and 8GB RAM.",
-      "Specification": [
-        "Processor: Intel Core i3",
-        "RAM: 8GB DDR4",
-        "Storage: 256GB SSD",
-        "Display: 15.6-inch Full HD"
-      ],
-      "availability": true,
-      "rating": 4.2,
-      "brand": "Dell",
-      "warranty": "1 year"
-    },
-    {
-      "product_id": "CPT1002",
-      "product_title": "HP Pavilion Gaming Laptop",
-      "product_image": "https://i.ibb.co.com/B2Rkj4r/computer2.png",
-      "category": "Laptop",
-      "price": 900.00,
-      "description": "Powerful gaming laptop with NVIDIA graphics and AMD Ryzen processor.",
-      "Specification": [
-        "Processor: AMD Ryzen 5",
-        "Graphics: NVIDIA GeForce GTX 1650",
-        "RAM: 16GB DDR4",
-        "Storage: 512GB SSD",
-        "Display: 15.6-inch Full HD 144Hz"
-      ],
-      "availability": true,
-      "rating": 4.5,
-      "brand": "HP",
-      "warranty": "1 year"
-    },
+   
     {
       "product_id": "CPT1003",
       "product_title": "Apple MacBook Air M1",
@@ -73,24 +37,6 @@
       "warranty": "3 years"
     },
     {
-      "product_id": "CPT1005",
-      "product_title": "Acer Predator Orion 3000",
-      "product_image": "https://i.ibb.co.com/r4qqpmL/computer5.png",
-      "category": "Desktop",
-      "price": 1300.00,
-      "description": "High-performance gaming desktop with Intel i7 and RTX 3060 graphics.",
-      "Specification": [
-        "Processor: Intel Core i7",
-        "Graphics: NVIDIA GeForce RTX 3060",
-        "RAM: 16GB DDR4",
-        "Storage: 1TB HDD + 512GB SSD"
-      ],
-      "availability": true,
-      "rating": 4.7,
-      "brand": "Acer",
-      "warranty": "2 years"
-    },
-    {
       "product_id": "CPT1006",
       "product_title": "ASUS ROG Zephyrus G14",
       "product_image": "https://i.ibb.co.com/5nPqWC2/computer6.png",
@@ -108,24 +54,6 @@
       "rating": 4.4,
       "brand": "ASUS",
       "warranty": "2 years"
-    },
-    {
-      "product_id": "CPT1007",
-      "product_title": "Microsoft Surface Laptop 4",
-      "product_image": "https://i.ibb.co.com/Xph3tnn/computer7.png",
-      "category": "Laptop",
-      "price": 1100.00,
-      "description": "Slim and powerful laptop with AMD Ryzen 5 and PixelSense touchscreen.",
-      "Specification": [
-        "Processor: AMD Ryzen 5",
-        "RAM: 8GB",
-        "Storage: 256GB SSD",
-        "Display: 13.5-inch PixelSense Touchscreen"
-      ],
-      "availability": true,
-      "rating": 4.3,
-      "brand": "Microsoft",
-      "warranty": "1 year"
     },
     {
       "product_id": "CPT1008",
@@ -146,6 +74,24 @@
       "warranty": "1 year"
     },
     {
+      "product_id": "ACC1002",
+      "product_title": "SanDisk Ultra 128GB USB 3.0 Flash Drive",
+      "product_image": "https://i.ibb.co.com/TMscMdg/item2.png",
+      "category": "Laptop Accessory",
+      "price": 25.00,
+      "description": "High-speed USB flash drive for quick file transfer and storage expansion.",
+      "Specification": [
+        "Storage Capacity: 128GB",
+        "Transfer Speed: Up to 130MB/s",
+        "Interface: USB 3.0",
+        "Compatibility: Windows, macOS, Linux"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "SanDisk",
+      "warranty": "5 years"
+    },
+    {
       "product_id": "CPT1009",
       "product_title": "Razer Blade 15 Base",
       "product_image": "https://i.ibb.co.com/8YDxMXg/computer9.png",
@@ -163,6 +109,223 @@
       "rating": 4.6,
       "brand": "Razer",
       "warranty": "1 year"
-    }
+    },
+      {
+        "product_id": "PHN2001",
+        "product_title": "iPhone 13",
+        "product_image": "https://i.ibb.co.com/r5SNXYq/moble1.png",
+        "category": "Smartphone",
+        "price": 799.00,
+        "description": "Apple's latest smartphone with A15 Bionic chip and 5G support.",
+        "Specification": [
+          "Display: 6.1-inch Super Retina XDR",
+          "Processor: A15 Bionic",
+          "Storage: 128GB/256GB/512GB",
+          "Camera: Dual 12MP ultra wide and wide cameras"
+        ],
+        "availability": true,
+        "rating": 4.8,
+        "brand": "Apple",
+        "warranty": "1 year"
+      },
+      {
+        "product_id": "PHN2002",
+        "product_title": "Samsung Galaxy S21",
+        "product_image": "https://i.ibb.co.com/M2950YF/mobile2.png",
+        "category": "Smartphone",
+        "price": 699.99,
+        "description": "Flagship Samsung phone with stunning display and pro-grade camera.",
+        "Specification": [
+          "Display: 6.2-inch Dynamic AMOLED 2X",
+          "Processor: Exynos 2100 / Snapdragon 888",
+          "Storage: 128GB/256GB",
+          "Camera: Triple 64MP + 12MP + 12MP rear cameras"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "Samsung",
+        "warranty": "1 year"
+      },
+      {
+        "product_id": "PHN2004",
+        "product_title": "OnePlus 9 Pro",
+        "product_image": "https://i.ibb.co.com/wgDr2Nf/mobile4.png",
+        "category": "Smartphone",
+        "price": 729.00,
+        "description": "Premium smartphone with Hasselblad camera and fluid display.",
+        "Specification": [
+          "Display: 6.7-inch Fluid AMOLED",
+          "Processor: Snapdragon 888",
+          "Storage: 128GB/256GB",
+          "Camera: Quad 48MP + 50MP + 8MP + 2MP rear cameras"
+        ],
+        "availability": false,
+        "rating": 4.4,
+        "brand": "OnePlus",
+        "warranty": "1 year"
+      },
+        {
+          "product_id": "SW1002",
+          "product_title": "Samsung Galaxy Watch 4",
+          "product_image": "https://i.ibb.co.com/87nFsmC/smart2.png",
+          "category": "Smartwatch",
+          "price": 249.99,
+          "description": "A smartwatch powered by Wear OS with health tracking and body composition analysis.",
+          "Specification": [
+            "Display: 1.4-inch Super AMOLED",
+            "Processor: Exynos W920",
+            "Operating System: Wear OS",
+            "Battery Life: Up to 40 hours"
+          ],
+          "availability": true,
+          "rating": 4.5,
+          "brand": "Samsung",
+          "warranty": "1 year"
+        },
+        {
+          "product_id": "CPT1002",
+          "product_title": "HP Pavilion Gaming Laptop",
+          "product_image": "https://i.ibb.co.com/B2Rkj4r/computer2.png",
+          "category": "Laptop",
+          "price": 900.00,
+          "description": "Powerful gaming laptop with NVIDIA graphics and AMD Ryzen processor.",
+          "Specification": [
+            "Processor: AMD Ryzen 5",
+            "Graphics: NVIDIA GeForce GTX 1650",
+            "RAM: 16GB DDR4",
+            "Storage: 512GB SSD",
+            "Display: 15.6-inch Full HD 144Hz"
+          ],
+          "availability": true,
+          "rating": 4.5,
+          "brand": "HP",
+          "warranty": "1 year"
+        },
+        {
+          "product_id": "SW1003",
+          "product_title": "Fitbit Sense",
+          "product_image": "https://i.ibb.co.com/7Ywbcxq/smart3.png",
+          "category": "Smartwatch",
+          "price": 299.95,
+          "description": "Advanced health smartwatch with stress management, EDA scan, and heart rate tracking.",
+          "Specification": [
+            "Display: 1.58-inch AMOLED",
+            "Heart Rate Monitor: ECG app",
+            "Water Resistance: 50 meters",
+            "Battery Life: Up to 6 days"
+          ],
+          "availability": true,
+          "rating": 4.3,
+          "brand": "Fitbit",
+          "warranty": "1 year"
+        },
+        {
+          "product_id": "CPT1001",
+          "product_title": "Dell Inspiron 15 3000",
+          "product_image": "https://i.ibb.co.com/XpRcWV7/computer1.png",
+          "category": "Laptop",
+          "price": 450.00,
+          "description": "Affordable laptop for everyday tasks with Intel i3 processor and 8GB RAM.",
+          "Specification": [
+            "Processor: Intel Core i3",
+            "RAM: 8GB DDR4",
+            "Storage: 256GB SSD",
+            "Display: 15.6-inch Full HD"
+          ],
+          "availability": true,
+          "rating": 4.2,
+          "brand": "Dell",
+          "warranty": "1 year"
+        },
+        {
+          "product_id": "SW1001",
+          "product_title": "Apple Watch Series 7",
+          "product_image": "https://i.ibb.co.com/wWgPfH7/smart1.png",
+          "category": "Smartwatch",
+          "price": 399.00,
+          "description": "The latest Apple Watch with larger display, fitness tracking, and fast charging.",
+          "Specification": [
+            "Display: 1.9-inch Always-On Retina",
+            "Processor: S7 dual-core",
+            "Water Resistance: 50 meters",
+            "Battery Life: Up to 18 hours"
+          ],
+          "availability": true,
+          "rating": 4.8,
+          "brand": "Apple",
+          "warranty": "1 year"
+        },
+          {
+            "product_id": "ACC1001",
+            "product_title": "Logitech MX Master 3 Wireless Mouse",
+            "product_image": "https://i.ibb.co.com/GxdzCq5/item1.png",
+            "category": "Laptop Accessory",
+            "price": 99.99,
+            "description": "Advanced wireless mouse with ergonomic design, customizable buttons, and fast scrolling.",
+            "Specification": [
+              "Wireless Connectivity: Bluetooth and USB receiver",
+              "Battery Life: Up to 70 days",
+              "Customizable Buttons: 7",
+              "Compatibility: Windows, macOS, Linux"
+            ],
+            "availability": true,
+            "rating": 4.7,
+            "brand": "Logitech",
+            "warranty": "1 year"
+          },
+          {
+            "product_id": "ACC1003",
+            "product_title": "Anker PowerCore 26800 Portable Charger",
+            "product_image": "https://i.ibb.co.com/Pc3HxpG/item3.png",
+            "category": "Laptop Accessory",
+            "price": 65.00,
+            "description": "High-capacity portable charger with fast charging technology and multiple USB ports.",
+            "Specification": [
+              "Battery Capacity: 26800mAh",
+              "Output Ports: 3 USB ports",
+              "Fast Charging: PowerIQ and VoltageBoost",
+              "Compatibility: Laptops, Tablets, Smartphones"
+            ],
+            "availability": true,
+            "rating": 4.8,
+            "brand": "Anker",
+            "warranty": "18 months"
+          },
+          {
+            "product_id": "PHN2003",
+            "product_title": "Google Pixel 6",
+            "product_image": "https://i.ibb.co.com/FV9J2xx/mobile3.png",
+            "category": "Smartphone",
+            "price": 599.00,
+            "description": "Google's latest device with powerful AI camera features and Android 12.",
+            "Specification": [
+              "Display: 6.4-inch OLED",
+              "Processor: Google Tensor",
+              "Storage: 128GB/256GB",
+              "Camera: Dual 50MP wide and 12MP ultra-wide cameras"
+            ],
+            "availability": true,
+            "rating": 4.6,
+            "brand": "Google",
+            "warranty": "1 year"
+          },
+          {
+            "product_id": "CPT1005",
+            "product_title": "Acer Predator Orion 3000",
+            "product_image": "https://i.ibb.co.com/r4qqpmL/computer5.png",
+            "category": "Desktop",
+            "price": 1300.00,
+            "description": "High-performance gaming desktop with Intel i7 and RTX 3060 graphics.",
+            "Specification": [
+              "Processor: Intel Core i7",
+              "Graphics: NVIDIA GeForce RTX 3060",
+              "RAM: 16GB DDR4",
+              "Storage: 1TB HDD + 512GB SSD"
+            ],
+            "availability": true,
+            "rating": 4.7,
+            "brand": "Acer",
+            "warranty": "2 years"
+          }
   ]
   
