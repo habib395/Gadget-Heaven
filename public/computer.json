@@ -1,0 +1,168 @@
+[
+    {
+      "product_id": "CPT1001",
+      "product_title": "Dell Inspiron 15 3000",
+      "product_image": "https://i.ibb.co.com/XpRcWV7/computer1.png",
+      "category": "Laptop",
+      "price": 450.00,
+      "description": "Affordable laptop for everyday tasks with Intel i3 processor and 8GB RAM.",
+      "Specification": [
+        "Processor: Intel Core i3",
+        "RAM: 8GB DDR4",
+        "Storage: 256GB SSD",
+        "Display: 15.6-inch Full HD"
+      ],
+      "availability": true,
+      "rating": 4.2,
+      "brand": "Dell",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": "CPT1002",
+      "product_title": "HP Pavilion Gaming Laptop",
+      "product_image": "https://i.ibb.co.com/B2Rkj4r/computer2.png",
+      "category": "Laptop",
+      "price": 900.00,
+      "description": "Powerful gaming laptop with NVIDIA graphics and AMD Ryzen processor.",
+      "Specification": [
+        "Processor: AMD Ryzen 5",
+        "Graphics: NVIDIA GeForce GTX 1650",
+        "RAM: 16GB DDR4",
+        "Storage: 512GB SSD",
+        "Display: 15.6-inch Full HD 144Hz"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "HP",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": "CPT1003",
+      "product_title": "Apple MacBook Air M1",
+      "product_image": "https://i.ibb.co.com/qD31JFZ/computer3.png",
+      "category": "Laptop",
+      "price": 999.00,
+      "description": "Lightweight and powerful laptop with Apple M1 chip for improved performance.",
+      "Specification": [
+        "Processor: Apple M1",
+        "RAM: 8GB",
+        "Storage: 256GB SSD",
+        "Display: 13.3-inch Retina Display"
+      ],
+      "availability": true,
+      "rating": 4.8,
+      "brand": "Apple",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": "CPT1004",
+      "product_title": "Lenovo ThinkPad X1 Carbon",
+      "product_image": "https://i.ibb.co.com/8DW9hVb/computer4.png",
+      "category": "Laptop",
+      "price": 1200.00,
+      "description": "Business laptop with ultra-slim design, great battery life, and powerful Intel i7 processor.",
+      "Specification": [
+        "Processor: Intel Core i7",
+        "RAM: 16GB DDR4",
+        "Storage: 512GB SSD",
+        "Display: 14-inch Full HD"
+      ],
+      "availability": false,
+      "rating": 4.6,
+      "brand": "Lenovo",
+      "warranty": "3 years"
+    },
+    {
+      "product_id": "CPT1005",
+      "product_title": "Acer Predator Orion 3000",
+      "product_image": "https://i.ibb.co.com/r4qqpmL/computer5.png",
+      "category": "Desktop",
+      "price": 1300.00,
+      "description": "High-performance gaming desktop with Intel i7 and RTX 3060 graphics.",
+      "Specification": [
+        "Processor: Intel Core i7",
+        "Graphics: NVIDIA GeForce RTX 3060",
+        "RAM: 16GB DDR4",
+        "Storage: 1TB HDD + 512GB SSD"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "brand": "Acer",
+      "warranty": "2 years"
+    },
+    {
+      "product_id": "CPT1006",
+      "product_title": "ASUS ROG Zephyrus G14",
+      "product_image": "https://i.ibb.co.com/5nPqWC2/computer6.png",
+      "category": "Laptop",
+      "price": 1400.00,
+      "description": "Compact gaming laptop with AMD Ryzen 9 and GeForce GTX 1650.",
+      "Specification": [
+        "Processor: AMD Ryzen 9",
+        "Graphics: NVIDIA GeForce GTX 1650",
+        "RAM: 16GB DDR4",
+        "Storage: 1TB SSD",
+        "Display: 14-inch Full HD 120Hz"
+      ],
+      "availability": false,
+      "rating": 4.4,
+      "brand": "ASUS",
+      "warranty": "2 years"
+    },
+    {
+      "product_id": "CPT1007",
+      "product_title": "Microsoft Surface Laptop 4",
+      "product_image": "https://i.ibb.co.com/Xph3tnn/computer7.png",
+      "category": "Laptop",
+      "price": 1100.00,
+      "description": "Slim and powerful laptop with AMD Ryzen 5 and PixelSense touchscreen.",
+      "Specification": [
+        "Processor: AMD Ryzen 5",
+        "RAM: 8GB",
+        "Storage: 256GB SSD",
+        "Display: 13.5-inch PixelSense Touchscreen"
+      ],
+      "availability": true,
+      "rating": 4.3,
+      "brand": "Microsoft",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": "CPT1008",
+      "product_title": "Samsung Galaxy Book Flex2 Alpha",
+      "product_image": "https://i.ibb.co.com/k956XxX/computer8.png",
+      "category": "Laptop",
+      "price": 950.00,
+      "description": "Convertible 2-in-1 laptop with QLED touchscreen display.",
+      "Specification": [
+        "Processor: Intel Core i5",
+        "RAM: 8GB",
+        "Storage: 512GB SSD",
+        "Display: 13.3-inch QLED Touchscreen"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "Samsung",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": "CPT1009",
+      "product_title": "Razer Blade 15 Base",
+      "product_image": "https://i.ibb.co.com/8YDxMXg/computer9.png",
+      "category": "Laptop",
+      "price": 1600.00,
+      "description": "Premium gaming laptop with Intel i7 processor and GTX 1660 Ti graphics.",
+      "Specification": [
+        "Processor: Intel Core i7",
+        "Graphics: NVIDIA GeForce GTX 1660 Ti",
+        "RAM: 16GB DDR4",
+        "Storage: 512GB SSD",
+        "Display: 15.6-inch Full HD"
+      ],
+      "availability": true,
+      "rating": 4.6,
+      "brand": "Razer",
+      "warranty": "1 year"
+    }
+  ]
+  
