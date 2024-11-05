@@ -20,7 +20,7 @@ const ComputerCard = () => {
                 </div>
             <div className='col-span-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3'>
             {
-                computers.map(computer => <Computer key={Computer.product_id} computer={computer}></Computer>
+                computers.map(computer => <Computer computer={computer} key={computer.product_id}></Computer>
                 )
             }
             </div>

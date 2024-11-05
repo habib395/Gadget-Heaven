@@ -1,7 +1,7 @@
 [
    
     {
-      "product_id": "CPT1003",
+      "product_id": "1",
       "product_title": "Apple MacBook Air M1",
       "product_image": "https://i.ibb.co.com/qD31JFZ/computer3.png",
       "category": "Laptop",
@@ -19,7 +19,7 @@
       "warranty": "1 year"
     },
     {
-      "product_id": "CPT1004",
+      "product_id": "2",
       "product_title": "Lenovo ThinkPad X1 Carbon",
       "product_image": "https://i.ibb.co.com/8DW9hVb/computer4.png",
       "category": "Laptop",
@@ -37,7 +37,7 @@
       "warranty": "3 years"
     },
     {
-      "product_id": "CPT1006",
+      "product_id": "3",
       "product_title": "ASUS ROG Zephyrus G14",
       "product_image": "https://i.ibb.co.com/5nPqWC2/computer6.png",
       "category": "Laptop",
@@ -56,7 +56,7 @@
       "warranty": "2 years"
     },
     {
-      "product_id": "CPT1008",
+      "product_id": "4",
       "product_title": "Samsung Galaxy Book Flex2 Alpha",
       "product_image": "https://i.ibb.co.com/k956XxX/computer8.png",
       "category": "Laptop",
@@ -74,7 +74,7 @@
       "warranty": "1 year"
     },
     {
-      "product_id": "ACC1002",
+      "product_id": "5",
       "product_title": "SanDisk Ultra 128GB USB 3.0 Flash Drive",
       "product_image": "https://i.ibb.co.com/TMscMdg/item2.png",
       "category": "Laptop Accessory",
@@ -92,7 +92,7 @@
       "warranty": "5 years"
     },
     {
-      "product_id": "CPT1009",
+      "product_id": "6",
       "product_title": "Razer Blade 15 Base",
       "product_image": "https://i.ibb.co.com/8YDxMXg/computer9.png",
       "category": "Laptop",
@@ -111,7 +111,7 @@
       "warranty": "1 year"
     },
       {
-        "product_id": "PHN2001",
+        "product_id": "7",
         "product_title": "iPhone 13",
         "product_image": "https://i.ibb.co.com/r5SNXYq/moble1.png",
         "category": "Smartphone",
@@ -129,7 +129,7 @@
         "warranty": "1 year"
       },
       {
-        "product_id": "PHN2002",
+        "product_id": "8",
         "product_title": "Samsung Galaxy S21",
         "product_image": "https://i.ibb.co.com/M2950YF/mobile2.png",
         "category": "Smartphone",
@@ -147,7 +147,7 @@
         "warranty": "1 year"
       },
       {
-        "product_id": "PHN2004",
+        "product_id": "9",
         "product_title": "OnePlus 9 Pro",
         "product_image": "https://i.ibb.co.com/wgDr2Nf/mobile4.png",
         "category": "Smartphone",
@@ -165,7 +165,7 @@
         "warranty": "1 year"
       },
         {
-          "product_id": "SW1002",
+          "product_id": "10",
           "product_title": "Samsung Galaxy Watch 4",
           "product_image": "https://i.ibb.co.com/87nFsmC/smart2.png",
           "category": "Smartwatch",
@@ -183,7 +183,7 @@
           "warranty": "1 year"
         },
         {
-          "product_id": "CPT1002",
+          "product_id": "11",
           "product_title": "HP Pavilion Gaming Laptop",
           "product_image": "https://i.ibb.co.com/B2Rkj4r/computer2.png",
           "category": "Laptop",
@@ -202,7 +202,7 @@
           "warranty": "1 year"
         },
         {
-          "product_id": "SW1003",
+          "product_id": "12",
           "product_title": "Fitbit Sense",
           "product_image": "https://i.ibb.co.com/7Ywbcxq/smart3.png",
           "category": "Smartwatch",
@@ -220,7 +220,7 @@
           "warranty": "1 year"
         },
         {
-          "product_id": "CPT1001",
+          "product_id": "13",
           "product_title": "Dell Inspiron 15 3000",
           "product_image": "https://i.ibb.co.com/XpRcWV7/computer1.png",
           "category": "Laptop",
@@ -238,7 +238,7 @@
           "warranty": "1 year"
         },
         {
-          "product_id": "SW1001",
+          "product_id": "14",
           "product_title": "Apple Watch Series 7",
           "product_image": "https://i.ibb.co.com/wWgPfH7/smart1.png",
           "category": "Smartwatch",
@@ -256,7 +256,7 @@
           "warranty": "1 year"
         },
           {
-            "product_id": "ACC1001",
+            "product_id": "15",
             "product_title": "Logitech MX Master 3 Wireless Mouse",
             "product_image": "https://i.ibb.co.com/GxdzCq5/item1.png",
             "category": "Laptop Accessory",
@@ -274,7 +274,7 @@
             "warranty": "1 year"
           },
           {
-            "product_id": "ACC1003",
+            "product_id": "16",
             "product_title": "Anker PowerCore 26800 Portable Charger",
             "product_image": "https://i.ibb.co.com/Pc3HxpG/item3.png",
             "category": "Laptop Accessory",
@@ -292,7 +292,7 @@
             "warranty": "18 months"
           },
           {
-            "product_id": "PHN2003",
+            "product_id": "17",
             "product_title": "Google Pixel 6",
             "product_image": "https://i.ibb.co.com/FV9J2xx/mobile3.png",
             "category": "Smartphone",
@@ -310,7 +310,7 @@
             "warranty": "1 year"
           },
           {
-            "product_id": "CPT1005",
+            "product_id": "18",
             "product_title": "Acer Predator Orion 3000",
             "product_image": "https://i.ibb.co.com/r4qqpmL/computer5.png",
             "category": "Desktop",

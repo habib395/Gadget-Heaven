@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Computer = ({computer}) => {
     const {product_id, product_title, product_image, category, price, description,Specification, brand } = computer;
@@ -14,7 +15,8 @@ const Computer = ({computer}) => {
     <h2 className='text-xl font-bold'>{product_title}</h2>
     <p className='text-xl font-semibold'>Price:{price}</p>
     <div>
-      <button className="btn rounded-full bg-transparent text-base border-[#9538E2] text-[#9538E2] font-bold">View Details</button>
+      <Link to={`/computer/${product_id}`}>
+      <button className="btn rounded-full bg-transparent text-base border-[#9538E2] text-[#9538E2] font-bold">View Details</button></Link>
     </div>
   </div>
 </div>

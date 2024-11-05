@@ -11,6 +11,7 @@ import Dashboard from './dashboard/Dashboard.jsx';
 import Feedback from './feedback/Feedback.jsx';
 import Statistic from './statistic/Statistic.jsx';
 import Home from './home/Home.jsx';
+import BookDetail from './BookDetail/BookDetail.jsx';
 const router = createBrowserRouter([
 	{
 	  path: "/",
@@ -21,6 +22,11 @@ const router = createBrowserRouter([
 			path: "/",
 			element:<Home></Home>
 		}, 
+		{
+			path: 'computer/:product_id',
+			element: <BookDetail></BookDetail>,
+			loader: () => fetch('/computer.json')
+		},
 		{
 			path: 'dashboard',
 			element: <Dashboard></Dashboard>
