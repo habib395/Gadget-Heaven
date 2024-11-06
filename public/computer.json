@@ -20,6 +20,97 @@
     },
     {
       "product_id": "2",
+      "product_title": "Samsung Galaxy S21",
+      "product_image": "https://i.ibb.co.com/M2950YF/mobile2.png",
+      "category": "Smartphone",
+      "price": 699.99,
+      "description": "Flagship Samsung phone with stunning display and pro-grade camera.",
+      "Specification": [
+        "Display: 6.2-inch Dynamic AMOLED 2X",
+        "Processor: Exynos 2100 / Snapdragon 888",
+        "Storage: 128GB/256GB",
+        "Camera: Triple 64MP + 12MP + 12MP rear cameras"
+      ],
+      "availability": true,
+      "rating": 4.5,
+      "brand": "Samsung",
+      "warranty": "1 year"
+    },
+    {
+      "product_id": "3",
+      "product_title": "OnePlus 9 Pro",
+      "product_image": "https://i.ibb.co.com/wgDr2Nf/mobile4.png",
+      "category": "Smartphone",
+      "price": 729.00,
+      "description": "Premium smartphone with Hasselblad camera and fluid display.",
+      "Specification": [
+        "Display: 6.7-inch Fluid AMOLED",
+        "Processor: Snapdragon 888",
+        "Storage: 128GB/256GB",
+        "Camera: Quad 48MP + 50MP + 8MP + 2MP rear cameras"
+      ],
+      "availability": false,
+      "rating": 4.4,
+      "brand": "OnePlus",
+      "warranty": "1 year"
+    },
+      {
+        "product_id": "4",
+        "product_title": "Samsung Galaxy Watch 4",
+        "product_image": "https://i.ibb.co.com/87nFsmC/smart2.png",
+        "category": "Smartwatch",
+        "price": 249.99,
+        "description": "A smartwatch powered by Wear OS with health tracking and body composition analysis.",
+        "Specification": [
+          "Display: 1.4-inch Super AMOLED",
+          "Processor: Exynos W920",
+          "Operating System: Wear OS",
+          "Battery Life: Up to 40 hours"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "Samsung",
+        "warranty": "1 year"
+      },
+      {
+        "product_id": "5",
+        "product_title": "HP Pavilion Gaming Laptop",
+        "product_image": "https://i.ibb.co.com/B2Rkj4r/computer2.png",
+        "category": "Laptop",
+        "price": 900.00,
+        "description": "Powerful gaming laptop with NVIDIA graphics and AMD Ryzen processor.",
+        "Specification": [
+          "Processor: AMD Ryzen 5",
+          "Graphics: NVIDIA GeForce GTX 1650",
+          "RAM: 16GB DDR4",
+          "Storage: 512GB SSD",
+          "Display: 15.6-inch Full HD 144Hz"
+        ],
+        "availability": true,
+        "rating": 4.5,
+        "brand": "HP",
+        "warranty": "1 year"
+      },
+      {
+        "product_id": "6",
+        "product_title": "Fitbit Sense",
+        "product_image": "https://i.ibb.co.com/7Ywbcxq/smart3.png",
+        "category": "Smartwatch",
+        "price": 299.95,
+        "description": "Advanced health smartwatch with stress management, EDA scan, and heart rate tracking.",
+        "Specification": [
+          "Display: 1.58-inch AMOLED",
+          "Heart Rate Monitor: ECG app",
+          "Water Resistance: 50 meters",
+          "Battery Life: Up to 6 days"
+        ],
+        "availability": true,
+        "rating": 4.3,
+        "brand": "Fitbit",
+        "warranty": "1 year"
+      },
+    {
+      "product_id": "7",
       "product_title": "Lenovo ThinkPad X1 Carbon",
       "product_image": "https://i.ibb.co.com/8DW9hVb/computer4.png",
       "category": "Laptop",
@@ -37,7 +128,7 @@
       "warranty": "3 years"
     },
     {
-      "product_id": "3",
+      "product_id": "8",
       "product_title": "ASUS ROG Zephyrus G14",
       "product_image": "https://i.ibb.co.com/5nPqWC2/computer6.png",
       "category": "Laptop",
@@ -56,7 +147,7 @@
       "warranty": "2 years"
     },
     {
-      "product_id": "4",
+      "product_id": "9",
       "product_title": "Samsung Galaxy Book Flex2 Alpha",
       "product_image": "https://i.ibb.co.com/k956XxX/computer8.png",
       "category": "Laptop",
@@ -74,7 +165,7 @@
       "warranty": "1 year"
     },
     {
-      "product_id": "5",
+      "product_id": "10",
       "product_title": "SanDisk Ultra 128GB USB 3.0 Flash Drive",
       "product_image": "https://i.ibb.co.com/TMscMdg/item2.png",
       "category": "Laptop Accessory",
@@ -92,7 +183,7 @@
       "warranty": "5 years"
     },
     {
-      "product_id": "6",
+      "product_id": "11",
       "product_title": "Razer Blade 15 Base",
       "product_image": "https://i.ibb.co.com/8YDxMXg/computer9.png",
       "category": "Laptop",
@@ -111,7 +202,7 @@
       "warranty": "1 year"
     },
       {
-        "product_id": "7",
+        "product_id": "12",
         "product_title": "iPhone 13",
         "product_image": "https://i.ibb.co.com/r5SNXYq/moble1.png",
         "category": "Smartphone",
@@ -128,97 +219,6 @@
         "brand": "Apple",
         "warranty": "1 year"
       },
-      {
-        "product_id": "8",
-        "product_title": "Samsung Galaxy S21",
-        "product_image": "https://i.ibb.co.com/M2950YF/mobile2.png",
-        "category": "Smartphone",
-        "price": 699.99,
-        "description": "Flagship Samsung phone with stunning display and pro-grade camera.",
-        "Specification": [
-          "Display: 6.2-inch Dynamic AMOLED 2X",
-          "Processor: Exynos 2100 / Snapdragon 888",
-          "Storage: 128GB/256GB",
-          "Camera: Triple 64MP + 12MP + 12MP rear cameras"
-        ],
-        "availability": true,
-        "rating": 4.5,
-        "brand": "Samsung",
-        "warranty": "1 year"
-      },
-      {
-        "product_id": "9",
-        "product_title": "OnePlus 9 Pro",
-        "product_image": "https://i.ibb.co.com/wgDr2Nf/mobile4.png",
-        "category": "Smartphone",
-        "price": 729.00,
-        "description": "Premium smartphone with Hasselblad camera and fluid display.",
-        "Specification": [
-          "Display: 6.7-inch Fluid AMOLED",
-          "Processor: Snapdragon 888",
-          "Storage: 128GB/256GB",
-          "Camera: Quad 48MP + 50MP + 8MP + 2MP rear cameras"
-        ],
-        "availability": false,
-        "rating": 4.4,
-        "brand": "OnePlus",
-        "warranty": "1 year"
-      },
-        {
-          "product_id": "10",
-          "product_title": "Samsung Galaxy Watch 4",
-          "product_image": "https://i.ibb.co.com/87nFsmC/smart2.png",
-          "category": "Smartwatch",
-          "price": 249.99,
-          "description": "A smartwatch powered by Wear OS with health tracking and body composition analysis.",
-          "Specification": [
-            "Display: 1.4-inch Super AMOLED",
-            "Processor: Exynos W920",
-            "Operating System: Wear OS",
-            "Battery Life: Up to 40 hours"
-          ],
-          "availability": true,
-          "rating": 4.5,
-          "brand": "Samsung",
-          "warranty": "1 year"
-        },
-        {
-          "product_id": "11",
-          "product_title": "HP Pavilion Gaming Laptop",
-          "product_image": "https://i.ibb.co.com/B2Rkj4r/computer2.png",
-          "category": "Laptop",
-          "price": 900.00,
-          "description": "Powerful gaming laptop with NVIDIA graphics and AMD Ryzen processor.",
-          "Specification": [
-            "Processor: AMD Ryzen 5",
-            "Graphics: NVIDIA GeForce GTX 1650",
-            "RAM: 16GB DDR4",
-            "Storage: 512GB SSD",
-            "Display: 15.6-inch Full HD 144Hz"
-          ],
-          "availability": true,
-          "rating": 4.5,
-          "brand": "HP",
-          "warranty": "1 year"
-        },
-        {
-          "product_id": "12",
-          "product_title": "Fitbit Sense",
-          "product_image": "https://i.ibb.co.com/7Ywbcxq/smart3.png",
-          "category": "Smartwatch",
-          "price": 299.95,
-          "description": "Advanced health smartwatch with stress management, EDA scan, and heart rate tracking.",
-          "Specification": [
-            "Display: 1.58-inch AMOLED",
-            "Heart Rate Monitor: ECG app",
-            "Water Resistance: 50 meters",
-            "Battery Life: Up to 6 days"
-          ],
-          "availability": true,
-          "rating": 4.3,
-          "brand": "Fitbit",
-          "warranty": "1 year"
-        },
         {
           "product_id": "13",
           "product_title": "Dell Inspiron 15 3000",
