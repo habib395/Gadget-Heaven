@@ -1,4 +1,5 @@
 import React from 'react';
+import Chart from '../LineCha/Chart';
 
 const Statistic = () => {
     return (
@@ -11,9 +12,17 @@ const Statistic = () => {
             <p className='text-sm md:text-base w-1/2 mx-auto text-center font-thin text-white'>Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
             </div>
         </div>
+        <div className='w-5/6 mx-auto mt-10'>
+            <div className='flex flex-col w-full'>
+            <h2 className='text-xl w-full mx-auto md:text-2xl lg:text-3xl font-semibold mb-4'>Statistics</h2>
+            <Chart></Chart>
+            </div>
+            </div>
+        <div>
+
+        </div>
         </div>
 
-        // add chart to this section first 
 
     );
 };
