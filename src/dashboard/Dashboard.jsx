@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getAllFavorites } from '../utils';
-import Cards from '../components/Cards';
+import Cart from './Cart';
+
 
 const Dashboard = () => {
 
@@ -31,6 +32,7 @@ const Dashboard = () => {
           }     
       }
 
+      
     return (
         <div>
             <div>
@@ -46,12 +48,10 @@ const Dashboard = () => {
             <button onClick={()=>handleIsActiveStatus("Selected")} className= {`${isActive.cart? " btn btn-outline": " btn active px-10 bg-white rounded-full font-bold text-[#9538E2]"}`}>Wishlist</button>
             </div>
         </div>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+        <div className='grid grid-cols-1'>
         {
-            
-            computer.map(item =><Cards key={item.product_id} item={item} isActive={isActive} handleIsActiveStatus={handleIsActiveStatus}></Cards>
+            computer.map(items =><Cart key={items.product_id} items={items} setComputer={setComputer}></Cart>
             )
-            
         }
         </div>
             </div>
@@ -61,3 +61,4 @@ const Dashboard = () => {
 
 export default Dashboard;
 
+// {isActive.cart?<Available isActive={isActive} players={players} addPlayerSelected={addPlayerSelected} handleIsActiveStatus={handleIsActiveStatus} selectPlayers={selectPlayers}></Available>:<Selected selectPlayers={selectPlayers} playerRemoved={playerRemoved} isActive={isActive} handleIsActiveStatus={handleIsActiveStatus}
