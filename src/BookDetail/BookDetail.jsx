@@ -1,18 +1,17 @@
 import React from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
 import Heading from '../Heading';
 import { HiOutlineShoppingCart } from 'react-icons/hi';
 import { FaHeart } from 'react-icons/fa';
+import { useLoaderData, useParams } from 'react-router-dom';
 
 const BookDetail = () => {
 
-    const {product_id} = useParams()
-    const data = useLoaderData()
-    // const id = parseInt(product_id)
+  const {product_id} = useParams()
+  const data = useLoaderData()
+  
+  const item = data.find(item => item.product_id === product_id)
 
-    const computer = data.find(computer => computer.product_id === product_id)
-
-    const {product_id: currentId, product_title, product_image, category, price, description,Specification, brand, rating} = computer
+    const {product_id: currentId, product_title, product_image, category, price, description,Specification, brand, rating} = item
 
     return (
         <div>
@@ -86,8 +85,6 @@ const BookDetail = () => {
             </div>
         </div>
         </div>
-
-
     );
 };
 
