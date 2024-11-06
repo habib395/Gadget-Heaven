@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Banner from '../Banner';
 import Heading from '../Heading';
-import ComputerCard from '../components/computerCard/ComputerCard';
+import { Outlet, useLoaderData } from 'react-router-dom';
+import Categories from '../components/computer/Categories';
 
 const Home = () => {
+
+    const [computers, setComputer] = useState([])
+
+    useEffect(()=>{
+        fetch('./computer.json')
+        .then(res => res.json())
+        .then(data => setComputer(data))
+    }
+        ,[])
+
+    const categories = useLoaderData()
     return (
         
        <div>
@@ -14,8 +26,24 @@ const Home = () => {
             <Banner></Banner>
             {/* computer zone */}
         </div>
-            <ComputerCard></ComputerCard>
+        {/* main section */}
+        <div className='w-4/5 mx-auto bg-gray-50 p-10'>
+        <h2 className='text-3xl text-center font-semibold py-10'>Explore Cutting-Edge Gadgets</h2>
+        <div className='grid grid-cols-4 gap-4'>
+        <div className='col-span-1'>
+            <Categories categories={categories}></Categories>
+        </div>
+        <div className='col-span-3 grid grid-cols-3 gap-3'>
+
+            <Outlet></Outlet>
+            {/* {
+                computers.map(computer => <Computer computer={computer} key={computer.product_id}></Computer>
+                )
+                } */}
+        </div>
        </div>
+       </div>
+        </div>
         
     );
 };

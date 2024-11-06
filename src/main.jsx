@@ -12,6 +12,7 @@ import Feedback from './feedback/Feedback.jsx';
 import Statistic from './statistic/Statistic.jsx';
 import Home from './home/Home.jsx';
 import BookDetail from './BookDetail/BookDetail.jsx';
+import CoffeeCard from './components/computer/CoffeeCard.jsx';
 const router = createBrowserRouter([
 	{
 	  path: "/",
@@ -20,7 +21,15 @@ const router = createBrowserRouter([
 	  children:[
 		{
 			path: "/",
-			element:<Home></Home>
+			element:<Home></Home>,
+			loader: () => fetch('../categories.json'),
+			children:[
+				{
+					path: "/categoryIssue/:Category",
+					element: <CoffeeCard></CoffeeCard>,
+					loader: () => fetch('../computer.json')
+				},
+			]
 		}, 
 		{
 			path: 'computer/:product_id',
@@ -38,7 +47,8 @@ const router = createBrowserRouter([
 		{
 			path: 'feedback',
 			element: <Feedback></Feedback>
-		}
+		},
+		
 	  ]
 	},
   ]);

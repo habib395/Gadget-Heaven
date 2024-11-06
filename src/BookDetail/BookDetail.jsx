@@ -26,7 +26,7 @@ const BookDetail = () => {
            
            <div className="border -mt-32 card card-side bg-base-100 w-[800px] h-[500px]">
   <figure>
-    <img className='p-5 h-[350px] object-cover'
+    <img className='p-5  object-cover h-full'
       src={product_image}
       alt="Movie" />
   </figure>
@@ -69,8 +69,7 @@ const BookDetail = () => {
 </div>
 <div className="badge badge-outline bg-gray-200">{rating}</div>
    </div>
-
-   <div className="navbar-end flex gap-4">
+   <div className="navbar-end flex gap-4 ml-10">
     <button className='btn rounded-full text-lg text-white bg-[#9538E2]'>Add to Card
         <HiOutlineShoppingCart />
     </button>
@@ -78,6 +77,7 @@ const BookDetail = () => {
         <FaHeart />
           </button>
         </div>
+
 
   </div>
 </div>

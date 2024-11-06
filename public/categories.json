@@ -1,0 +1,23 @@
+[
+    {
+      "id": "1",
+      "category": "Laptop",
+      "slug": "apple-macbook-air-m1"
+    },
+    {
+      "id": "2",
+      "category": "Smartphone",
+      "slug": "samsung-galaxy-s21"
+    },
+    {
+      "id": "3",
+      "category": "Smartwatch",
+      "slug": "apple-watch-series-7"
+    },
+    {
+      "id": "4",
+      "category": "Laptop Accessory",
+      "slug": "acer-predator-orion-3000"
+    }
+  ]
+  
