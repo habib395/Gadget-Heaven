@@ -36,10 +36,7 @@ const Home = () => {
         <div className='col-span-3 grid grid-cols-3 gap-3'>
 
             <Outlet></Outlet>
-            {/* {
-                computers.map(computer => <Computer computer={computer} key={computer.product_id}></Computer>
-                )
-                } */}
+            
         </div>
        </div>
        </div>

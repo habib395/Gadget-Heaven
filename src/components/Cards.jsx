@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Cards = ({ item }) => {
+    console.log(item)
     const {product_id, product_title, product_image, category, price, description,Specification, brand } = item;
     return (
         <div className="card bg-base-100">

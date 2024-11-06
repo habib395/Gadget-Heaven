@@ -1,8 +1,39 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { getAllFavorites } from '../utils';
+import Cards from '../components/Cards';
 
 const Dashboard = () => {
+
+    const [computer, setComputer] = useState([])
+
+    useEffect(() => {
+        const favorites = getAllFavorites()
+        setComputer(favorites)
+    }, [])
+
+    // no-1
+    const [isActive, setIsActive] = useState({
+        cart : true,
+        status : "Available"
+      }
+      )
+    const handleIsActiveStatus = (status) =>{
+        if(status == "Available"){
+          setIsActive({
+            cart : true,
+            status : "Available"
+          })}
+           else{
+            setIsActive({
+              cart:false,
+              status :"selected"
+            })
+          }     
+      }
+
     return (
         <div>
+            <div>
             <div className='bg-[#9538E2] py-10 text-center'>
             <div className='w-full mx-auto'>
             <div className='flex flex-col w-full justify-center items-center text-white'>
@@ -10,13 +41,23 @@ const Dashboard = () => {
             </div>
             <p className='text-sm md:text-base w-1/2 mx-auto text-center font-thin text-white'>Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
             </div>
-            <div className='flex gap-3 items-center justify-center mt-4'>
-            <button className="btn px-10 btn-outline rounded-full text-xl text-white"> Cart </button>
-            <button className="btn px-10 bg-white rounded-full font-bold text-[#9538E2]">Wishlist</button>
+            <div className='flex gap-10 items-center justify-center mt-4'>
+            <button onClick={()=>handleIsActiveStatus("Available")} className= {`${isActive.cart? " btn active px-10  rounded-full text-base text-[#9538E2]": " btn btn-outline"}`}> Cart </button>
+            <button onClick={()=>handleIsActiveStatus("Selected")} className= {`${isActive.cart? " btn btn-outline": " btn active px-10 bg-white rounded-full font-bold text-[#9538E2]"}`}>Wishlist</button>
             </div>
         </div>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
+        {
+            
+            computer.map(item =><Cards key={item.product_id} item={item} isActive={isActive} handleIsActiveStatus={handleIsActiveStatus}></Cards>
+            )
+            
+        }
+        </div>
+            </div>
         </div>
     );
 };
 
 export default Dashboard;
+

@@ -6,7 +6,7 @@
       "product_image": "https://i.ibb.co.com/qD31JFZ/computer3.png",
       "category": "Laptop",
       "price": 999.00,
-      "description": "Lightweight and powerful laptop with Apple M1 chip for improved performance.",
+      "description": "Lightweight and powerful laptop with Apple M1 chip.",
       "Specification": [
         "Processor: Apple M1",
         "RAM: 8GB",
@@ -24,7 +24,7 @@
       "product_image": "https://i.ibb.co.com/M2950YF/mobile2.png",
       "category": "Smartphone",
       "price": 699.99,
-      "description": "Flagship Samsung phone with stunning display and pro-grade camera.",
+      "description": "Flagship Samsung phone with stunning display.",
       "Specification": [
         "Display: 6.2-inch Dynamic AMOLED 2X",
         "Processor: Exynos 2100 / Snapdragon 888",
@@ -42,7 +42,7 @@
       "product_image": "https://i.ibb.co.com/wgDr2Nf/mobile4.png",
       "category": "Smartphone",
       "price": 729.00,
-      "description": "Premium smartphone with Hasselblad camera and fluid display.",
+      "description": "Premium smartphone camera and fluid display.",
       "Specification": [
         "Display: 6.7-inch Fluid AMOLED",
         "Processor: Snapdragon 888",
@@ -60,7 +60,7 @@
         "product_image": "https://i.ibb.co.com/87nFsmC/smart2.png",
         "category": "Smartwatch",
         "price": 249.99,
-        "description": "A smartwatch powered by Wear OS with health tracking and body composition analysis.",
+        "description": "A smartwatch powered by Wear OS with health tracking.",
         "Specification": [
           "Display: 1.4-inch Super AMOLED",
           "Processor: Exynos W920",
@@ -78,7 +78,7 @@
         "product_image": "https://i.ibb.co.com/B2Rkj4r/computer2.png",
         "category": "Laptop",
         "price": 900.00,
-        "description": "Powerful gaming laptop with NVIDIA graphics and AMD Ryzen processor.",
+        "description": "Powerful gaming laptop with NVIDIA graphics.",
         "Specification": [
           "Processor: AMD Ryzen 5",
           "Graphics: NVIDIA GeForce GTX 1650",
@@ -97,7 +97,7 @@
         "product_image": "https://i.ibb.co.com/7Ywbcxq/smart3.png",
         "category": "Smartwatch",
         "price": 299.95,
-        "description": "Advanced health smartwatch with stress management, EDA scan, and heart rate tracking.",
+        "description": "Advanced health smartwatch with stress management.",
         "Specification": [
           "Display: 1.58-inch AMOLED",
           "Heart Rate Monitor: ECG app",
@@ -115,7 +115,7 @@
       "product_image": "https://i.ibb.co.com/8DW9hVb/computer4.png",
       "category": "Laptop",
       "price": 1200.00,
-      "description": "Business laptop with ultra-slim design, great battery life, and powerful Intel i7 processor.",
+      "description": "Business laptop with ultra-slim design.",
       "Specification": [
         "Processor: Intel Core i7",
         "RAM: 16GB DDR4",
@@ -133,7 +133,7 @@
       "product_image": "https://i.ibb.co.com/5nPqWC2/computer6.png",
       "category": "Laptop",
       "price": 1400.00,
-      "description": "Compact gaming laptop with AMD Ryzen 9 and GeForce GTX 1650.",
+      "description": "Compact gaming laptop with AMD Ryzen 9.",
       "Specification": [
         "Processor: AMD Ryzen 9",
         "Graphics: NVIDIA GeForce GTX 1650",
@@ -152,7 +152,7 @@
       "product_image": "https://i.ibb.co.com/k956XxX/computer8.png",
       "category": "Laptop",
       "price": 950.00,
-      "description": "Convertible 2-in-1 laptop with QLED touchscreen display.",
+      "description": "Convertible 2-in-1 laptop with QLED display.",
       "Specification": [
         "Processor: Intel Core i5",
         "RAM: 8GB",
@@ -170,7 +170,7 @@
       "product_image": "https://i.ibb.co.com/TMscMdg/item2.png",
       "category": "Laptop Accessory",
       "price": 25.00,
-      "description": "High-speed USB flash drive for quick file transfer and storage expansion.",
+      "description": "High-speed USB flash drive for quick file transfer.",
       "Specification": [
         "Storage Capacity: 128GB",
         "Transfer Speed: Up to 130MB/s",
@@ -188,7 +188,7 @@
       "product_image": "https://i.ibb.co.com/8YDxMXg/computer9.png",
       "category": "Laptop",
       "price": 1600.00,
-      "description": "Premium gaming laptop with Intel i7 processor and GTX 1660 Ti graphics.",
+      "description": "Premium gaming laptop with Intel i7 processor.",
       "Specification": [
         "Processor: Intel Core i7",
         "Graphics: NVIDIA GeForce GTX 1660 Ti",
@@ -207,7 +207,7 @@
         "product_image": "https://i.ibb.co.com/r5SNXYq/moble1.png",
         "category": "Smartphone",
         "price": 799.00,
-        "description": "Apple's latest smartphone with A15 Bionic chip and 5G support.",
+        "description": "Apple's latest smartphone with A15 Bionic chip.",
         "Specification": [
           "Display: 6.1-inch Super Retina XDR",
           "Processor: A15 Bionic",
@@ -225,7 +225,7 @@
           "product_image": "https://i.ibb.co.com/XpRcWV7/computer1.png",
           "category": "Laptop",
           "price": 450.00,
-          "description": "Affordable laptop for everyday tasks with Intel i3 processor and 8GB RAM.",
+          "description": "Affordable laptop for everyday tasks.",
           "Specification": [
             "Processor: Intel Core i3",
             "RAM: 8GB DDR4",
@@ -243,7 +243,7 @@
           "product_image": "https://i.ibb.co.com/wWgPfH7/smart1.png",
           "category": "Smartwatch",
           "price": 399.00,
-          "description": "The latest Apple Watch with larger display, fitness tracking, and fast charging.",
+          "description": "The latest Apple Watch with larger display.",
           "Specification": [
             "Display: 1.9-inch Always-On Retina",
             "Processor: S7 dual-core",
@@ -261,7 +261,7 @@
             "product_image": "https://i.ibb.co.com/GxdzCq5/item1.png",
             "category": "Laptop Accessory",
             "price": 99.99,
-            "description": "Advanced wireless mouse with ergonomic design, customizable buttons, and fast scrolling.",
+            "description": "Advanced wireless mouse with ergonomic design.",
             "Specification": [
               "Wireless Connectivity: Bluetooth and USB receiver",
               "Battery Life: Up to 70 days",
@@ -279,7 +279,7 @@
             "product_image": "https://i.ibb.co.com/Pc3HxpG/item3.png",
             "category": "Laptop Accessory",
             "price": 65.00,
-            "description": "High-capacity portable charger with fast charging technology and multiple USB ports.",
+            "description": "High-capacity portable charger.",
             "Specification": [
               "Battery Capacity: 26800mAh",
               "Output Ports: 3 USB ports",
@@ -297,7 +297,7 @@
             "product_image": "https://i.ibb.co.com/FV9J2xx/mobile3.png",
             "category": "Smartphone",
             "price": 599.00,
-            "description": "Google's latest device with powerful AI camera features and Android 12.",
+            "description": "Google's latest device with powerful AI.",
             "Specification": [
               "Display: 6.4-inch OLED",
               "Processor: Google Tensor",
@@ -315,7 +315,7 @@
             "product_image": "https://i.ibb.co.com/r4qqpmL/computer5.png",
             "category": "Desktop",
             "price": 1300.00,
-            "description": "High-performance gaming desktop with Intel i7 and RTX 3060 graphics.",
+            "description": "High-performance gaming desktop.",
             "Specification": [
               "Processor: Intel Core i7",
               "Graphics: NVIDIA GeForce RTX 3060",

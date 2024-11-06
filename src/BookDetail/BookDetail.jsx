@@ -1,17 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Heading from '../Heading';
 import { HiOutlineShoppingCart } from 'react-icons/hi';
 import { FaHeart } from 'react-icons/fa';
 import { useLoaderData, useParams } from 'react-router-dom';
+import { addFavorite, getAllFavorites } from '../utils';
 
 const BookDetail = () => {
-
   const {product_id} = useParams()
   const data = useLoaderData()
   
   const item = data.find(item => item.product_id === product_id)
 
     const {product_id: currentId, product_title, product_image, category, price, description,Specification, brand, rating} = item
+
+    // handle favorite button clicked
+    const handleFavorite = item => {
+      addFavorite(item)
+    }
 
     return (
         <div>
@@ -69,7 +74,7 @@ const BookDetail = () => {
 <div className="badge badge-outline bg-gray-200">{rating}</div>
    </div>
    <div className="navbar-end flex gap-4 ml-10">
-    <button className='btn rounded-full text-lg text-white bg-[#9538E2]'>Add to Card
+    <button onClick={() => handleFavorite(item)} className='btn rounded-full text-lg text-white bg-[#9538E2]'>Add to Card
         <HiOutlineShoppingCart />
     </button>
           <button className='btn rounded-full'>
