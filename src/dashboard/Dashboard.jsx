@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { getAllFavorites } from '../utils';
+import { getAllFavorites, removeFavorite } from '../utils';
 import Cart from './Cart';
+import Wishes from './Wishes';
 
 
 const Dashboard = () => {
@@ -32,7 +33,12 @@ const Dashboard = () => {
           }     
       }
 
-      
+
+      // const handleRemove = id =>{
+      //   removeFavorite(id)
+      //   const favorites = getAllFavorites()
+      //   setComputer(favorites)
+      // }
     return (
         <div>
             <div>
@@ -44,16 +50,14 @@ const Dashboard = () => {
             <p className='text-sm md:text-base w-1/2 mx-auto text-center font-thin text-white'>Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
             </div>
             <div className='flex gap-10 items-center justify-center mt-4'>
-            <button onClick={()=>handleIsActiveStatus("Available")} className= {`${isActive.cart? " btn active px-10  rounded-full text-base text-[#9538E2]": " btn btn-outline"}`}> Cart </button>
-            <button onClick={()=>handleIsActiveStatus("Selected")} className= {`${isActive.cart? " btn btn-outline": " btn active px-10 bg-white rounded-full font-bold text-[#9538E2]"}`}>Wishlist</button>
+            <button onClick={()=>handleIsActiveStatus("Available")} className= {`${isActive.cart? " btn active  rounded-full text-base text-[#9538E2]": " btn btn-outline"}`}> Cart </button>
+            <button onClick={()=>handleIsActiveStatus("Selected")} className= {`${isActive.cart? " btn btn-outline": " btn active bg-white rounded-full font-bold text-[#9538E2]"}`}>Wishlist</button>
             </div>
         </div>
-        <div className='grid grid-cols-1'>
+
         {
-            computer.map(items =><Cart key={items.product_id} items={items} setComputer={setComputer}></Cart>
-            )
+          isActive.cart?<Cart></Cart>:<Wishes></Wishes>
         }
-        </div>
             </div>
         </div>
     );

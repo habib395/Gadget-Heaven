@@ -1,38 +1,20 @@
 import React from 'react';
-import { TbXboxX } from "react-icons/tb";
+import { BiCurrentLocation } from "react-icons/bi";
+const Cart = () => {
 
-const Cart = ({ items, setComputer}) => {
-    const {product_id, product_title, product_image, category, price, description,Specification, brand } = items
-
-    const playerRemoved = product_id => {
-        const removedPlayer = items.find( player => player.product_id === product_id)
-        const updatePlayer = items.filter(player => player.product_id !== product_id)
-        setComputer(updatePlayer)
-      }
     return (
-            <div className='w-3/4 mx-auto'>  
-     <div className='py-4'>
-        <div key={items.product_id} className="border card card-side bg-base-100">
-        <figure>
-              <img className="border object-fill h-32 w-32 m-4 rounded-lg"
-             src={items.product_image}
-             alt="Movie" />
-            </figure>
-            <div className="card-body">
-            <div className='flex justify-between items-center'>
-            <div>
-            <p className="text-xl font-bold py-2">{items.product_title}</p>
-            <p className="text-base font-thin">{items.description}</p>
-            <p className="text-lg font-semibold py-2">Price :${items.price}</p>
+        <div>
+            <div className='w-5/6 mx-auto'>
+                <div className='flex justify-between items-center py-10'>
+                <div><h2>Cart</h2></div>
+                   <div className='flex gap-3 items-center'>
+                    <h2>Total Cost: </h2>
+                    <button className='btn bg-transparent btn-outline  rounded-full text-base text-[#9538E2]'>Sort By Price<BiCurrentLocation /></button>
+                    <button className='btn active bg-[#9538E2] rounded-full font-bold text-white'>Purchase</button>
+                   </div>
+                </div>
             </div>
-           <button onClick={()=> playerRemoved(items.product_id)} className="btn bg-transparent">
-           <TbXboxX />
-           </button>
-           </div>
-            </div>
-         </div> 
-      </div>
-    </div>
+        </div>
     );
 };
 
