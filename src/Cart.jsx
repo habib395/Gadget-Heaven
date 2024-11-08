@@ -3,7 +3,6 @@ import React from 'react';
 const Cart = ({ }) => {
     return (
         <div>
-            
             <div>  
         <div className='container mx-auto'>
     <div>
@@ -41,9 +40,7 @@ const Cart = ({ }) => {
         <button onClick={()=>handleIsActiveStatus("Available")} className= {`${isActive.cart? " btn bg-[#E7FE29]": " btn bg-[#E7FE29]"}`}>Add More Player</button>
         </div>
     </div>
-    </div>
-
-
+            </div>
         </div>
     );
 };

@@ -7,6 +7,7 @@ import Wishes from './Wishes';
 const Dashboard = () => {
 
     const [computer, setComputer] = useState([])
+    // console.log(setComputer)
 
     useEffect(() => {
         const favorites = getAllFavorites()
@@ -56,7 +57,7 @@ const Dashboard = () => {
         </div>
 
         {
-          isActive.cart?<Cart></Cart>:<Wishes></Wishes>
+          isActive.cart?<Cart computer={computer} setComputer={setComputer}></Cart>:<Wishes computer={computer}></Wishes>
         }
             </div>
         </div>
@@ -64,5 +65,3 @@ const Dashboard = () => {
 };
 
 export default Dashboard;
-
-// {isActive.cart?<Available isActive={isActive} players={players} addPlayerSelected={addPlayerSelected} handleIsActiveStatus={handleIsActiveStatus} selectPlayers={selectPlayers}></Available>:<Selected selectPlayers={selectPlayers} playerRemoved={playerRemoved} isActive={isActive} handleIsActiveStatus={handleIsActiveStatus}
