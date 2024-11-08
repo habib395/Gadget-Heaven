@@ -33,13 +33,15 @@ const Dashboard = () => {
             })
           }     
       }
-
-
-      // const handleRemove = id =>{
-      //   removeFavorite(id)
-      //   const favorites = getAllFavorites()
-      //   setComputer(favorites)
-      // }
+      const playerRemoved = id =>{
+        const removedPlayer = computer.find(player => player.product_id === id)
+        const updatePlayer = computer.filter(player => player.product_id !== id)
+        setComputer(updatePlayer)
+      }
+      // const playerRemoved = id => {
+      //   const removedPlayer = selectPlayers.find( player => player.playerId === id)
+      //   const updatePlayer = selectPlayers.filter(player => player.playerId !== id)
+      //   setComputer(updatePlayer)
     return (
         <div>
             <div>
@@ -57,7 +59,7 @@ const Dashboard = () => {
         </div>
 
         {
-          isActive.cart?<Cart computer={computer} setComputer={setComputer}></Cart>:<Wishes computer={computer}></Wishes>
+          isActive.cart?<Cart computer={computer} playerRemoved={playerRemoved} setComputer={setComputer}></Cart>:<Wishes computer={computer} playerRemoved={playerRemoved} ></Wishes>
         }
             </div>
         </div>

@@ -3,7 +3,7 @@ import { BiCurrentLocation } from "react-icons/bi";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleXmark } from '@fortawesome/free-regular-svg-icons';
 
-const Cart = ({computer, setComputer}) => {
+const Cart = ({computer, playerRemoved, setComputer}) => {
 
     return (
         <div>
@@ -22,7 +22,7 @@ const Cart = ({computer, setComputer}) => {
                 <div className="container mx-auto grid grid-cols-1 gap-4">
         {
           computer.map(player => (
-         <div key={player.playerId} className="border card card-side bg-base-100">
+         <div key={player.product_id} className="border card card-side bg-base-100">
             <figure>
               <img className="border object-fill h-32 w-32 m-4 rounded-lg"
              src={player.product_image}
@@ -38,7 +38,7 @@ const Cart = ({computer, setComputer}) => {
             </p>
             <button className="btn rounded-full px-4 bg-[#9538E2] my-2 ">Add To Card</button>
             </div>
-           <button onClick={()=> playerRemoved(player.product_id)} className="btn text-xl border-hidden bg-transparent">
+           <button onClick={() =>playerRemoved(player.product_id)} className="btn text-xl border-hidden bg-transparent">
            <FontAwesomeIcon icon={faCircleXmark} />
            </button>
            
