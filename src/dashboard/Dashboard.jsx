@@ -7,7 +7,6 @@ import Wishes from './Wishes';
 const Dashboard = () => {
 
     const [computer, setComputer] = useState([])
-    // console.log(setComputer)
 
     useEffect(() => {
         const favorites = getAllFavorites()
@@ -38,10 +37,12 @@ const Dashboard = () => {
         const updatePlayer = computer.filter(player => player.product_id !== id)
         setComputer(updatePlayer)
       }
-      // const playerRemoved = id => {
-      //   const removedPlayer = selectPlayers.find( player => player.playerId === id)
-      //   const updatePlayer = selectPlayers.filter(player => player.playerId !== id)
-      //   setComputer(updatePlayer)
+
+      const handleRemoved = id =>{
+        removeFavorite(id)
+        const favorites = getAllFavorites()
+        setComputer(favorites)
+      }
     return (
         <div>
             <div>
@@ -59,7 +60,7 @@ const Dashboard = () => {
         </div>
 
         {
-          isActive.cart?<Cart computer={computer} playerRemoved={playerRemoved} setComputer={setComputer}></Cart>:<Wishes computer={computer} playerRemoved={playerRemoved} ></Wishes>
+          isActive.cart?<Cart computer={computer} handleRemoved={handleRemoved}></Cart>:<Wishes computer={computer} handleRemoved={handleRemoved} ></Wishes>
         }
             </div>
         </div>

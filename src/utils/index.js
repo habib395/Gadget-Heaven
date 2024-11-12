@@ -2,6 +2,7 @@
 
 import toast from "react-hot-toast"
 
+
     const getAllFavorites = () => {
         const all = localStorage.getItem('favorites')
 
@@ -20,17 +21,18 @@ const addFavorite = item => {
     const favorites = getAllFavorites()
     const isExist = favorites.find(type => type.product_id == item.product_id)
     // console.log(item, item.product_id)
-    if(isExist) return toast.error('Items Already Exist!');
+    if(isExist) return toast.error('Already Exits!');
+    // if(isExist) return toast.error('Items Already Exist!');
     
     favorites.push(item)
     localStorage.setItem('favorites', JSON.stringify(favorites))
     toast.success('Successfully Added!');
 }
 
-// remove a coffee from local stroage
+// remove a coffee from local storage
 const removeFavorite = (id) =>{
     const favorites = getAllFavorites()
-    const remaining =  favorites.filter(item => item.product_id == id)
+    const remaining =  favorites.filter(item => item.product_id != id)
     localStorage.setItem('favorites', JSON.stringify(remaining))
     toast.success('Successfully Removed!');
 }

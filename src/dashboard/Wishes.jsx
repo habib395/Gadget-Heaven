@@ -3,7 +3,7 @@ import { BiCurrentLocation } from "react-icons/bi";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleXmark } from '@fortawesome/free-regular-svg-icons';
 
-const Wishes = ({computer, playerRemoved}) => {
+const Wishes = ({computer, handleRemoved}) => {
     return (
         <div>
             <div className='w-5/6 mx-auto'>
@@ -29,7 +29,7 @@ const Wishes = ({computer, playerRemoved}) => {
             </p>
             <button className="btn rounded-full px-4 bg-[#9538E2] my-2 ">Add To Card</button>
             </div>
-            <button onClick={() =>playerRemoved(player.product_id)} className="btn text-xl border-hidden bg-transparent">
+            <button onClick={() =>handleRemoved(player.product_id)} className="btn text-xl border-hidden bg-transparent">
            <FontAwesomeIcon icon={faCircleXmark} />
            </button>
            
