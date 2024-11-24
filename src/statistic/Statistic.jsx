@@ -1,9 +1,13 @@
 import React from 'react';
 import Chart from '../LineCha/Chart';
+import { Helmet } from 'react-helmet';
 
 const Statistic = () => {
     return (
         <div>
+            <Helmet>
+            <title>Statistic | Gadget Heaven</title>
+        </Helmet>
              <div className='bg-[#9538E2] py-10 text-center'>
             <div className='w-full mx-auto'>
             <div className='flex flex-col w-full justify-center items-center text-white'>

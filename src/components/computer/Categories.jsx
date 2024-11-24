@@ -9,7 +9,7 @@ const Categories = ({categories}) => {
         categories.map(category => <NavLink key={category.category} to={`/categoryIssue/${category.category}`} role="tab" className={({ isActive }) => `btn w-full rounded-full ${ isActive ? 'btn-primary' : ''}`}>{category.category}</NavLink>)
      }
      </div>
-        </div>
+    </div>
     );
 };
 

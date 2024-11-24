@@ -4,6 +4,7 @@ import { HiOutlineShoppingCart } from 'react-icons/hi';
 import { FaHeart } from 'react-icons/fa';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { addFavorite, getAllFavorites } from '../utils';
+import { Helmet } from 'react-helmet';
 
 const BookDetail = () => {
   const {product_id} = useParams()
@@ -20,7 +21,9 @@ const BookDetail = () => {
 
     return (
         <div>
-
+          <Helmet>
+            <title>Details | Gadget Heaven</title>
+        </Helmet>
     <div className='bg-[#9538E2] py-32 rounded-lg w-11/12 mx-auto text-center'>
     <Heading title='Product Details' subtitle='Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!'></Heading>
 </div>
@@ -77,7 +80,7 @@ const BookDetail = () => {
     <button onClick={() => handleFavorite(item)} className='btn rounded-full text-lg text-white bg-[#9538E2]'>Add to Card
         <HiOutlineShoppingCart />
     </button>
-          <button className='btn rounded-full'>
+          <button onClick={() => handleFavorite(item)}  className='btn rounded-full'>
         <FaHeart />
           </button>
         </div>
