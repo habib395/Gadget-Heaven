@@ -4,13 +4,20 @@ import Cart from "./Cart";
 import Wishes from "./Wishes";
 // import Dashboard from "./Dashboard";
 import { Helmet } from "react-helmet";
+import { getAllWishes, removeWishes } from "../wish";
 
 const Dashboard = () => {
   const [computer, setComputer] = useState([]);
+  const [wishes, setWishes] = useState()
 
   useEffect(() => {
     const favorites = getAllFavorites();
     setComputer(favorites);
+  }, []);
+
+  useEffect(() => {
+    const wishes = getAllWishes();
+    setWishes(wishes);
   }, []);
 
   // no-1
@@ -42,6 +49,14 @@ const Dashboard = () => {
     const favorites = getAllFavorites();
     setComputer(favorites);
   };
+  
+  const handleRemovedWish = (id) => {
+    removeWishes(id);
+    const favorites = getAllWishes();
+    setWishes(favorites);
+  };
+
+
   return (
     <div>
       <Helmet>
@@ -89,7 +104,7 @@ const Dashboard = () => {
         {isActive.cart ? (
           <Cart computer={computer} handleRemoved={handleRemoved}></Cart>
         ) : (
-          <Wishes computer={computer} handleRemoved={handleRemoved}></Wishes>
+          <Wishes wishes={wishes} handleRemovedWish={handleRemovedWish}></Wishes>
         )}
       </div>
     </div>

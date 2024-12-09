@@ -26,7 +26,7 @@ const Cart = ({computer, handleRemoved}) => {
                 <div className='flex justify-between items-center py-10'>
                 <div><h2 className="text-2xl font-semibold">Cart</h2></div>
                    <div className='flex gap-3 items-center'>
-                    <h2>Total Cost: </h2>
+                    <h2 className='btn btn-outline rounded-full'>Total Cost : { common.reduce((total, player) => total + player.price, 0) }</h2>
                     <button onClick={() => handleSort('price')} className='btn bg-transparent btn-outline  rounded-full text-base text-[#9538E2]'>Sort By Price<BiCurrentLocation /></button>
                     <button className='btn active bg-[#9538E2] rounded-full font-bold text-white'>Purchase</button>
                    </div>

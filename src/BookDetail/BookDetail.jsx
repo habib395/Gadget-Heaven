@@ -5,6 +5,7 @@ import { FaHeart } from 'react-icons/fa';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { addFavorite, getAllFavorites } from '../utils';
 import { Helmet } from 'react-helmet';
+import { addWishes } from '../wish';
 
 const BookDetail = () => {
   const {product_id} = useParams()
@@ -17,6 +18,9 @@ const BookDetail = () => {
     // handle favorite button clicked
     const handleFavorite = item => {
       addFavorite(item)
+    }
+    const handleWish = item =>{
+      addWishes(item)
     }
 
     return (
@@ -80,7 +84,7 @@ const BookDetail = () => {
     <button onClick={() => handleFavorite(item)} className='btn rounded-full text-lg text-white bg-[#9538E2]'>Add to Card
         <HiOutlineShoppingCart />
     </button>
-          <button onClick={() => handleFavorite(item)}  className='btn rounded-full'>
+          <button onClick={() => handleWish(item)}  className='btn rounded-full'>
         <FaHeart />
           </button>
         </div>
