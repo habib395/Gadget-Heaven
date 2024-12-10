@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { BiCurrentLocation } from "react-icons/bi";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleXmark } from '@fortawesome/free-regular-svg-icons';
-import { useLoaderData } from 'react-router-dom';
 import { getAllFavorites } from '../utils';
 
 const Cart = ({computer, handleRemoved}) => {
