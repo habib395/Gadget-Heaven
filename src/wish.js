@@ -1,5 +1,6 @@
 import toast from "react-hot-toast"
 
+
     //add all wishlist in local stroage
 
     const getAllWishes = () =>{
@@ -22,6 +23,7 @@ const addWishes = item =>{
     if(isExist) return toast.error('Already Exits!')
         const newWishes = [...wishes, item]
     localStorage.setItem('wishes', JSON.stringify(newWishes))
+    toast.success('Wish Added Successfully!');
 }
 
 

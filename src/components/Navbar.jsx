@@ -11,12 +11,12 @@ const Navbar = () => {
   },[location])
     return (
       <div>
-        <div className={`${location.pathname === '/'? 'navbar w-11/12 mx-auto active mt-3 px-10': 'navbar bg-base-100 w-11/12 mx-auto'}`}>
+        <div className={`${location.pathname === '/'? 'sm:navbar w-11/12 mx-auto active mt-3 px-10': 'navbar bg-base-100 w-11/12 mx-auto'}`}>
         <div className="navbar-start">
           <NavLink className={`${location.pathname === '/'? 'active': ''}`} to='/'>Gadget Heaven</NavLink>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+        <div className="navbar-center lg:flex">
+          <ul className="menu sm:menu-horizontal px-1">
             <li><NavLink className={`${location.pathname === '/'? 'active': ''}`} to='/'>Home</NavLink></li>
             <li><NavLink className="ml-3" to='/statistic'>Statistic</NavLink></li>
             <li><NavLink className="ml-3" to='/dashboard'>Dashboard</NavLink></li>

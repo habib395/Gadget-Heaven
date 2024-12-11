@@ -32,16 +32,13 @@ const CoffeeCard = () => {
                 computers.length > 0 ? (
                     computers.map(item => <Cards key={item.product_id} item={item}></Cards>)
                 ) : (
-                <div className='text-center col-span-3 text-gray-500'>
+                <div className='w-1/2 mx-auto sm:text-5xl text-center bg-[#9538E2] py-14 sm:py-10 rounded-full my-10'>
                     {
-                        Category === "Others" ? "No items is Available for this Category." : "No items found."
+                        Category === "Others" ? "No Data Found." : "No items found."
                     }
                 </div>
                 )
             }
-            {/* {
-        computers.map(item =><Cards key={item.product_id} item={item}></Cards>)
-        } */}
         </div>
         </>
     );

@@ -3,10 +3,15 @@ import { BiCurrentLocation } from "react-icons/bi";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleXmark } from '@fortawesome/free-regular-svg-icons';
 import { getAllFavorites } from '../utils';
+import { useNavigate } from 'react-router-dom';
+import payment from '../../assets/Group.png'
 
 const Cart = ({computer, handleRemoved}) => {
 
   const [common, setCommon] = useState([])
+
+  const [isModalOpen, setIsModalOpen] = useState(false)
+  const navigate = useNavigate()
 
   useEffect(() => {
       const favorites = getAllFavorites()
@@ -14,20 +19,36 @@ const Cart = ({computer, handleRemoved}) => {
   }, [])
 
 
-    // const {birds, setBirds} = useState(computer)
     const handleSort = (sortBy) =>{
       const sorted = [...common].sort((a, b) => b.price - a.price)
       setCommon(sorted)
     }
+
+    const handlePurchase = () =>{
+      setIsModalOpen(true)
+    }
+
+    const handleModalClose = () =>{
+      localStorage.clear()
+      setCommon([])
+      setIsModalOpen(false)
+      navigate('/')
+    }
+
+    const totalPrice = common.reduce((total, player) => total + player.price, 0)
+
+
+
+
     return (
         <div>
             <div className='w-5/6 mx-auto'>
-                <div className='flex justify-between items-center py-10'>
+                <div className='sm:flex justify-between items-center py-10'>
                 <div><h2 className="text-2xl font-semibold">Cart</h2></div>
                    <div className='flex gap-3 items-center'>
-                    <h2 className='btn btn-outline rounded-full'>Total Cost : { common.reduce((total, player) => total + player.price, 0) }</h2>
+                    <h2 className='btn btn-outline rounded-full'>Total Cost : ${totalPrice}</h2>
                     <button onClick={() => handleSort('price')} className='btn bg-transparent btn-outline  rounded-full text-base text-[#9538E2]'>Sort By Price<BiCurrentLocation /></button>
-                    <button className='btn active bg-[#9538E2] rounded-full font-bold text-white'>Purchase</button>
+                    <button onClick={handlePurchase} disabled={totalPrice === 0} className={`btn ${totalPrice === 0 ? "btn-disabled" : "btn active bg-[#9538E2] rounded-full font-bold text-white"}`}>Purchase</button>
                    </div>
                 </div>
                 <div>
@@ -61,6 +82,29 @@ const Cart = ({computer, handleRemoved}) => {
       </div>
      </div>
    </div>
+
+   {isModalOpen && (
+    <div className='modal modal-open'>
+      <div className='modal-box text-center'>
+        <div className='inline-block'>
+        <img src={payment} alt="" />
+        </div>
+        <h3 className='font-bold text-lg'>Payment Successfully!</h3>
+        <p className='py-4'>
+          Thank you for purchasing. <br />
+          Total :  {totalPrice}
+        </p>
+        <div className='modal-action justify-center'>
+          <button className='btn btn-primary' onClick={handleModalClose}>
+          Close
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+   )}
 </div>
     );
 };

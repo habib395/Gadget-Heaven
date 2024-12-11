@@ -2,13 +2,14 @@ import React, { useEffect, useState } from "react";
 import { getAllFavorites, removeFavorite } from "../utils";
 import Cart from "./Cart";
 import Wishes from "./Wishes";
-// import Dashboard from "./Dashboard";
 import { Helmet } from "react-helmet";
 import { getAllWishes, removeWishes } from "../wish";
+;
 
 const Dashboard = () => {
   const [computer, setComputer] = useState([]);
   const [wishes, setWishes] = useState()
+
 
   useEffect(() => {
     const favorites = getAllFavorites();
@@ -55,6 +56,7 @@ const Dashboard = () => {
     const favorites = getAllWishes();
     setWishes(favorites);
   };
+
 
 
   return (
