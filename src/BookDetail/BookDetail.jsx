@@ -56,7 +56,7 @@ const BookDetail = () => {
             <div className="border -mt-32 card card-side bg-base-100 w-[800px] h-[500px] pb-10  ">
               <figure>
                 <img
-                  className="p-5  object- h-full"
+                  className="p-5 "
                   src={product_image}
                   alt="Movie"
                 />

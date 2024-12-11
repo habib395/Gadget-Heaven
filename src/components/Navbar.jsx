@@ -11,7 +11,7 @@ const Navbar = () => {
   },[location])
     return (
       <div>
-        <div className={`${location.pathname === '/'? 'sm:navbar w-11/12 mx-auto active mt-3 px-10': 'navbar bg-base-100 w-11/12 mx-auto'}`}>
+        <div className={`${location.pathname === '/'? 'navbar w-11/12 mx-auto active mt-3 px-10': 'navbar bg-base-100 w-11/12 mx-auto'}`}>
         <div className="navbar-start">
           <NavLink className={`${location.pathname === '/'? 'active': ''}`} to='/'>Gadget Heaven</NavLink>
         </div>
@@ -27,7 +27,7 @@ const Navbar = () => {
           <div className='border rounded-full p-3 bg-white text-black'> 
         <HiOutlineShoppingCart />
           </div>
-          <div className='border rounded-full p-3 bg-white text-black'> 
+          <div className='border hidden sm:block rounded-full p-3 bg-white text-black'> 
         <FaHeart />
           </div>
         </div>
