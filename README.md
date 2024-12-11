@@ -1,6 +1,6 @@
 ## Live Website Link: "https://greasy-person.surge.sh/"   
 
-## Requirement Document Link: [Attach Requirement Document](file:///C:/practice/my-assignment-eight-ph/Batch-10_Assignment-08-.pdf)
+## Requirement Document Link: (file:///C:/practice/my-assignment-eight-ph/Batch-10_Assignment-08-.pdf)
 ##  React Fundamental concepts used in the project : 
 
 ---State management
